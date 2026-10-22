@@ -1,0 +1,74 @@
+.listCompany{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 480px;
+
+width: 100%;
+
+}
+
+.listCompanyctn{
+box-shadow: 0 0 10px black;
+width: 80%;
+height: 80%;
+display: flex;
+justify-content: center;
+align-items: start;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+overflow: auto;
+margin-top: -5%;
+
+}
+
+.listCompanyctn table{
+width: 100%; 
+
+}
+.listCompanyctn thead{
+    background-color: #063cb0;
+    color: white;
+    height: 30px;
+    border-color: blue;
+    border-collapse: collapse;
+}
+.listCompanyctn tbody td{
+    border-collapse: collapse;
+    background-color: rgb(237, 237, 237);
+    cursor: pointer;
+}
+.sn{
+    width: 6%;
+    
+}
+.companyname{
+    width: 60%;
+}
+.fy{
+    width: 15%;
+}
+.gstin{
+    width: 19%;
+}
+
+tr:hover td{
+   transition: 0.3s;
+   background-color: gray;
+}
+.back{
+    width: 20%;
+     background-color:  #063cb0 ;
+     box-shadow: 0 0 10px white;
+  
+     
+}
+
+    
+.backdiv{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    
+    margin-top: -8%;
+}

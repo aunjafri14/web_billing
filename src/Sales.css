@@ -1,0 +1,150 @@
+.ctnsale{
+    width: 84%;
+    height: 100vh;
+    background-color: #EAFBFF;
+
+
+}
+.vch{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 15%;
+}
+.main{
+    background-color: blueviolet;
+    width: 100%;
+    
+}
+.date{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 15%;
+}
+.headersale{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   gap: 2%;
+    width: 100%;
+    background-color: #EAFBFF;
+}
+.date label{
+    width: 80%;
+font-weight: bold;
+
+
+}
+.vch label{
+font-weight: bold;
+    width: 100%;
+    margin-right: 5%;
+}
+.vch .date input{
+    height: 80%;
+}
+.main{
+     width: 100%;
+    background-color: #EAFBFF;
+    margin-top: 0;
+}
+.title h3{
+    
+    background-color: rgb(13, 13, 86);
+  
+  color: white;
+  text-align: center;
+    border-radius: 20px;
+    padding: 8px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1%;
+}
+.party{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+.party label{
+    font-weight: bold;
+    width: 13%;
+    margin-left: -1%;
+    
+}
+.party input{
+    width: 50%;
+}
+
+
+.narration{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: .7%;
+    
+}
+.narration label{
+    font-weight: bold;
+    width: 13%;
+    margin-left: -1.5%;
+    
+}
+.narration input{
+    width: 85%;
+}
+.caption{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    text-align: left;
+    margin-top: -2%;
+    
+
+}
+.caption h3{
+    box-shadow: 0 0 1px black;
+    padding-left: 2px;
+
+   
+}
+.sn{
+    width: 5%;
+    text-align: left;
+}
+.des{
+    width: 50%;
+    text-align: left;
+
+}
+.qty{
+    width: 12%;
+    text-align: left;
+
+}
+.unit{
+    width: 7%;
+    text-align: left;
+
+}
+.price{
+    width: 12%;
+    text-align: left;
+
+}
+.amount{
+    width: 14%;
+    text-align: left;
+
+}
+.fa-plus-circle{
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+

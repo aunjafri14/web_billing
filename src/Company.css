@@ -1,0 +1,152 @@
+.compCtn{
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    height: 88%;
+   
+   
+}
+.side{
+    background-color: rgb(13, 13, 86);
+    height: 100%;
+width: 16%;
+overflow: auto;
+scrollbar-width: none;
+
+
+
+
+}
+
+.compWrap{
+    height: 100vh;
+     
+}
+
+.comlogo{
+    width: 90%; 
+    
+    margin-top: 4%;
+    
+    border-radius: 10px;
+    
+}
+.compName{
+    box-shadow: 0 0 10px black; 
+    width: 20%;
+     border-radius: 10px;
+    height: 100%;
+}
+
+.side span{
+    color: white;
+    text-align: left;
+    margin-left: 10%;
+   
+}
+.compMenu:hover {
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+.compMenu{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+    margin-top: 10%;
+ cursor: pointer;
+ padding-right: 8px;
+ 
+}
+.compMenu i{
+    color: white;
+}
+.about{
+    color: white;
+    gap: 0;
+   background-color: rgb(13, 13, 86);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 16%;
+   height: 12%;
+   
+
+    
+}
+.about h5{
+    font-weight: lighter;
+    margin: 0;
+}
+.compDetails{
+    background-color: #EAFBFF;
+    width: 100%;
+        box-shadow: 0 0 10px rgb(13, 13, 86);
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+.first{
+    justify-items: start;
+    margin-left: 2%;
+    color: rgb(13, 13, 86);
+width: 50%;
+}
+.first h4{
+    margin-top: 0;
+        text-shadow: 0 0 1px rgb(13, 13, 86);
+        margin-left: 1%;
+
+    
+}
+.first h1{
+        box-shadow: 0 0 10px rgb(13, 13, 86);
+
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: white;
+}
+.second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2%;
+    width: 25%;
+    
+}
+.second h4{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(13, 13, 86);
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: white;
+
+
+}
+.home{
+    width: 84%;
+    background-color: aqua;
+    margin-top: 0;
+    
+}
+.compBackground{
+    width: 100%;
+    height: 77.7vh;
+}
+.small-dot{
+    font-size: 10px;
+    
+    align-items: center;
+}
+.fa-solid.fa-dot-circle{
+    color: rgb(13, 13, 86);
+
+}
+.fa-solid.fa-dot-circle:hover{
+    opacity: 1;
+color: skyblue;
+}

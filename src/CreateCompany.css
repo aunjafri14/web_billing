@@ -1,0 +1,170 @@
+.containercc{
+height:auto;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#f4f6f9;
+
+}
+
+.ctncc{
+width:80%;
+background:white;
+padding:40px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+
+
+
+
+
+}
+
+.headercc{
+    background-color: green;
+    width: 100%;
+    border-radius: 20px;
+box-shadow:0 0 20px green;
+
+}
+
+.logo img{
+    width: 200px;
+    border-radius: 20px;
+    margin: 3%;
+    margin-top: 4%;
+}
+.headingcc1{
+    color: green;
+    text-align: left;
+    
+    
+    
+}
+.headingcc2{
+    color: green;
+    text-align: left;
+    position: relative;
+    top: -20px;
+}
+.info_ctncc{
+    background-color: greenyellow;
+    width: 70%;
+    background:white;
+padding:40px;
+border-radius:10px;
+
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+.iconcc{
+    
+    margin-right: 10px;
+
+}
+.info_ctncc input{
+    width: 300px;
+   
+
+}
+.input_headcc{
+display:flex;
+align-items:center;
+gap:5px;
+width:50%;
+}
+
+.iconcc{
+font-size:18px;
+color: green;
+}
+
+.itemscc{
+display:flex;
+flex-direction:column;
+margin-bottom:15px;
+}
+.head_covercc{
+    color: green;
+    display: flex;
+    
+    gap: 20px;
+}
+
+.input_covercc{
+    display: flex;
+    
+    gap: 20px;
+}
+.inputscc{
+    display: flex;
+    align-items: center;
+    width: 48%;
+}
+.input_headcc h2{
+    text-decoration: underline;
+    
+}
+
+
+
+P{
+    color: red;
+    font-size: xx-small;
+}
+
+
+
+
+.succces{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.icony{
+font-size:12px;
+color: white;
+margin-right: 5%;
+
+}
+
+.submitcc{
+    background-color: green;
+    box-shadow: 0 0 10px green ;
+    width: 30%;
+}
+.inputsAddcc{
+    display: flex;
+    align-items: center;
+    width: 100%;
+height: 20%;
+}
+.inputsAddcc input{
+    width: 93%;
+    height: 20%;
+}
+span{
+    color: red;
+}
+.buttoncc{
+    display: flex;
+    justify-content: start;
+    gap: 3%;
+    margin-top: 8%;
+}
+.backcc{
+    width: 30%;
+     box-shadow: 0 0 10px blue ;
+}
+
+select{
+    margin-top: 10%;
+    width: 95%;
+    height: 70%;
+    border-radius: 5px;
+    border-color: grey;
+}
+.submitcc:disabled{
+    cursor: not-allowed;
+    opacity: 0.5;
+    }

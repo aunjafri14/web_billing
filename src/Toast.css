@@ -1,0 +1,36 @@
+
+
+.toast_ctn{
+  position: fixed;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.toast{
+  color: white;
+  background-color: red;
+  width: 12rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  position: relative;
+  animation: slide 1s 1;
+  font-size: 1rem;
+  span{
+    position: absolute;
+    right: 1rem;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+  }
+
+
+}
+@keyframes slide {
+  0%{
+    transform: translateX(100%);
+
+  }
+  100%{
+transform: translateX(0%);
+
+  }
+}

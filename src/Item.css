@@ -1,0 +1,101 @@
+.itemCtn{
+    background-color: #EAFBFF;
+   width: 90%;
+   box-shadow: 0 0 10px black;
+   height: 90%;
+   border-radius: 10px;
+
+}
+.mainitem{
+    width: 84%;
+    background-color: white;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.det-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5%;
+    margin-bottom: 3%;
+
+}
+.det-ctn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42%;
+}
+.det-ctn label{
+    width: 40%;
+    font-weight: bold;
+    text-align: left;
+}
+
+.det-ctn input{
+    border-radius: 20px;
+}
+
+.item_btn{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 0.1%;
+    width: 50%s;
+
+}
+.item_btn button{
+    width: 20%;
+margin-top: 7%;
+        background-color: rgb(13, 13, 86);
+box-sizing: border-box;
+margin-right: 7%;
+box-shadow: 0 0 10px skyblue ;
+
+}
+.item_btn button:hover{
+    width: 20%;
+color: rgb(13, 13, 86);
+        background-color: skyblue;
+box-sizing: border-box;
+box-shadow: 0 0 10px rgb(13, 13, 86) ;
+}
+.title_item h3{
+background-color: rgb(13, 13, 86);
+  
+  color: white;
+  text-align: center;
+box-shadow: 0 0 10px rgb(13, 13, 86) ;
+
+    
+    padding: 8px;
+}
+.title_item{
+    margin-top: -2%;
+    
+}
+.det-wrap-des{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 1.5%;
+    margin-bottom: 3%;
+   
+    width: 100%;
+
+}
+.det-wrap-des .det-ctn{
+    width: 100%;
+    
+}
+.det-wrap-des .det-ctn label{
+    width: 13%;
+}
+.det-wrap-des .det-ctn input{
+    width: 72%;
+    
+}

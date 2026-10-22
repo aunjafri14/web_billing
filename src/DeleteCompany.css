@@ -1,0 +1,152 @@
+.listCompany{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 480px;
+
+width: 100%;
+
+}
+
+.listCompanyctndc{
+box-shadow: 0 0 10px black;
+width: 80%;
+height: 80%;
+display: flex;
+justify-content: center;
+align-items: start;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+overflow: auto;
+margin-top: -5%;
+
+}
+
+.listCompanyctndc table{
+width: 100%; 
+
+}
+.listCompanyctndc thead{
+    background-color: red;
+    color: white;
+    height: 30px;
+    border-color: red;
+    border-collapse: collapse;
+}
+.listCompanyctndc tbody td{
+    border-collapse: collapse;
+    background-color: rgb(237, 237, 237);
+    cursor: pointer;
+}
+.sn{
+    width: 6%;
+    
+}
+.companyname{
+    width: 60%;
+}
+.fy{
+    width: 15%;
+}
+.gstin{
+    width: 19%;
+}
+
+tr:hover td{
+   transition: 0.3s;
+   background-color: gray;
+}
+.backdc{
+    width: 20%;
+     background-color:  red ;
+     box-shadow: 0 0 10px white;
+  
+     
+}
+
+    
+.backdiv{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    
+    margin-top: -8%;
+}
+
+.headingdc h1{
+    color: red;
+}
+.headerdc{
+background-color: red;
+display: flex;
+height: 5%;
+justify-content: space-between;
+align-items: center;
+
+}
+.headerRightdc{
+    margin-right: 4%;
+    display: flex;
+    font-weight: 1200;
+    gap: 20%;
+    width: auto;
+    align-items: center;
+    
+}
+.headerRightdc h4{
+  
+    
+    padding: 5%;
+width: 100%;
+border-radius: 30%;
+color: white;
+white-space: nowrap;
+gap: 5%;
+}
+.headingdc h1 {
+  margin: 0;
+  color: red;
+  box-shadow: black;
+}
+
+.headingdc h6 {
+  margin: 5px 0 0 0;
+  color: black;
+}
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalBox {
+  background: white;
+  padding: 30px;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px gray;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.modalButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    
+
+}
+.modalButton button{
+    background-color: red;
+}
