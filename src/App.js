@@ -108,7 +108,9 @@ element:<CreateComapny/>
 }
 
 
-])
+], {
+  basename: "/web_billing"
+})
   return (
     <div className="App">
       <Mycontext.Provider value={{login,setlogin,register,setregister,data,setdata,countryStateData,company,setcompany,myCompany,setmyCompany,account,setaccount,accountCategory,gstRegistrationType,screen,setscreen
